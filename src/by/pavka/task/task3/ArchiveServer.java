@@ -54,8 +54,7 @@ public class ArchiveServer {
                 String serverCommand = br.readLine();
                 if(serverCommand.equalsIgnoreCase("EXIT")) {
                     System.out.println("Server is shutting down...");
-//                    Archive.INSTANCE.close();
-//                    server.close();
+
                     break;
                 }
             }
